@@ -1,0 +1,46 @@
+#system-status-wrap{
+  display: flex;
+  display: -webkit-flex;
+}
+
+#ss-left-col{
+  width: 70%;
+  max-width: 850px;
+}
+
+#ss-right-col{
+  width: 30%;
+}
+
+#system-message-setting{
+  display: flex;
+  display: -webkit-flex;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+#ss-message-wrap{
+  width: 100%;
+}
+
+#ss-message-controls{
+  max-width: 100px;
+  margin: 0 0 0 20px;
+}
+
+#ss-message-controls input{
+  width: 100%;
+}
+
+#ss-message-controls h4{
+	margin: 5px 0;
+}
+
+#ss-message-types, #ss-message-apply{
+  margin: 20px 0;
+}
+
+#ss-message-apply-all{
+  margin: 0 0 20px 0;
+}
